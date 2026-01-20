@@ -1,0 +1,76 @@
+body {
+    background-color: #FFD29D;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.h1 {
+    font-family: Copperplate;
+}
+
+#cor2 {
+    color: rgb(228, 212, 184);
+}
+
+#cabecalho {
+    font-family: 'Bowlby One';
+    background-color: #FF751F;
+    color: rgb(74, 24, 13);
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+#subtitu {
+    
+    background-color: #61904C;
+    color: rgb(41, 63, 5);
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+}
+
+#centro {
+    justify-self: center;
+    justify-content: center;
+    background-color: #f9e4d3;
+    color: rgb(83, 31, 22);
+    border: rgb(70, 19, 10);
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+}
+
+#rodape {
+    background-color: #a41623;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+a:link {
+    color: rgb(228, 212, 184);
+    text-decoration: none;
+    font-size: x-large;
+}
+
+a:hover {
+    color: rgb(250, 250, 250);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(228, 212, 184);
+  }
