@@ -1,0 +1,82 @@
+.flexbox {
+    display: flex; /*Consigo mover os elementos no container*/
+    flex-direction: column;
+    border: 4px dashed #583c78;
+}
+
+body {
+    background-color: #190038;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho {
+    align-items: center;
+    background-color:#270057;
+    color:white;
+}
+
+#formatacaoimg {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#centro {
+    align-content: center;
+    margin-left: 380px;
+    flex-direction: row;
+}
+
+#centro2 {
+    align-content: center;
+    margin-left: 215px;
+    flex-direction: row;
+}
+
+#pesquisa {
+    
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: rgb(221, 216, 231);
+    height: 45px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(65, 65, 65);
+}
+
+#borda {
+    border: 5px solid rgb(35, 35, 35);
+}
+
+#corbranco {
+    color: aliceblue;
+}
+
+#relative {
+    flex-direction: column;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#textos-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.conteudo-central {
+    display: flex;
+
+    align-items: center;
+    gap: 30px;
+}

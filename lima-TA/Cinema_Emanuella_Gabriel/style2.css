@@ -1,0 +1,67 @@
+.flexbox {
+    display: flex; /*Consigo mover os elementos no container*/
+    flex-direction: column;
+    border: 4px dashed #583c78;
+}
+
+body {
+    background-color: #190038;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho {
+    align-items: center;
+    background-color:#270057;
+    color:white;
+}
+
+#formatacaoimg {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#centro {
+    align-content: center;
+    margin-left: 380px;
+    flex-direction: row;
+}
+
+
+#centro2 {
+    align-content: center;
+    margin-left: 215px;
+    flex-direction: row;
+}
+
+#pesquisa {  
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: rgb(221, 216, 231);
+    height: 45px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+#formatacaotexto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+a:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(101, 88, 123);
+}
+
+#corbranco {
+    color: aliceblue;
+}
